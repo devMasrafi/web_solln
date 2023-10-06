@@ -1,2 +1,11 @@
 font-family: 'Chivo', sans-serif;
 font-family: 'DM Sans', sans-serif;
+
+rocket
+    <i class="fa-solid fa-rocket"></i>
+
+lock:
+    <i class="fa-solid fa-lock"></i>
+
+setting
+    <i class="fa-solid fa-gear"></i>
