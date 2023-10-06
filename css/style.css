@@ -240,3 +240,67 @@ a {
   background-color: #3639A4;
   color: #FFF;
 }
+
+#integration {
+  background-color: #F4FAFA;
+}
+#integration .container {
+  position: relative;
+}
+#integration .container .integration_wrapper {
+  padding: 192px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#integration .container .integration_wrapper .text_details {
+  width: 585px;
+}
+#integration .container .integration_wrapper .text_details h4 {
+  color: #FF7364;
+  font-size: 20px;
+}
+#integration .container .integration_wrapper .text_details h2 {
+  font-family: "Chivo", sans-serif;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 58px;
+}
+#integration .container .integration_wrapper .text_details p {
+  line-height: 32px;
+  letter-spacing: -1;
+  padding: 20px 0 40px 0;
+}
+#integration .container .integration_wrapper .text_details a {
+  padding: 20px 48px;
+  background-color: #43E7DF;
+  border-radius: 6px;
+  transition: all linear 0.3s;
+}
+#integration .container .integration_wrapper .text_details a:hover {
+  background-color: #3639A4;
+  color: #FFF;
+}
+#integration .container .integration_wrapper .logo_img {
+  width: 700px;
+  display: flex;
+  align-items: start;
+  gap: 30px;
+  flex-wrap: wrap;
+  position: relative;
+}
+#integration .container .integration_wrapper .logo_img .logo_wrapper {
+  padding: 28px 40px;
+  background-color: #FFF;
+  border-radius: 6px;
+}
+#integration .container .integration_wrapper .logo_img .logo_wrapper img {
+  height: 45px;
+  width: 100%;
+}
+#integration .container .icon {
+  position: absolute;
+  content: "";
+  bottom: 35px;
+  left: -100px;
+}

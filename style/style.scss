@@ -272,3 +272,67 @@ a{
         }
     }
 }
+
+#integration{
+    background-color: #F4FAFA;
+    .container{
+        position: relative;
+        .integration_wrapper{
+            padding: 192px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .text_details{
+                width: 585px;
+                h4{
+                    color: #FF7364;
+                    font-size: 20px;
+                }
+                h2{
+                    font-family: 'Chivo', sans-serif;
+                    font-weight: 700;
+                    font-size: 46px;
+                    line-height: 58px;
+                }
+                p{
+                    line-height: 32px;
+                    letter-spacing: -1;
+                    padding: 20px 0 40px 0;
+                }
+                a{
+                    padding: 20px 48px;
+                    background-color: $btnbg;
+                    border-radius: 6px;
+                    transition: all linear 0.3s;
+                    &:hover{
+                        background-color: $btnhover;
+                        color: $white;
+                    }
+                }
+            }
+            .logo_img{
+                width: 700px;
+                display: flex;
+                align-items: start;
+                gap: 30px;
+                flex-wrap: wrap;
+                position: relative;
+                .logo_wrapper{
+                    padding: 28px 40px;
+                    background-color: $white;
+                    border-radius: 6px;
+                    img{
+                        height: 45px;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .icon{
+            position: absolute;
+            content: "";
+            bottom: 35px;
+            left: -100px;
+        }
+    }
+}
