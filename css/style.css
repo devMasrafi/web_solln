@@ -80,7 +80,6 @@ a {
   background: url(../images/BG\ Shape.png);
   background-size: contain;
   background-repeat: no-repeat;
-  width: 100%;
 }
 #banner .container .banner_text {
   text-align: center;
@@ -129,4 +128,61 @@ a {
 }
 #banner .container .soln_shape {
   padding-top: 98px;
+}
+
+#use_inf .container .text_details {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+#use_inf .container .text_details .heading h2 {
+  font-size: 46px;
+  font-weight: 700;
+  font-family: "Chivo", sans-serif;
+  width: 504px;
+  line-height: 58px;
+}
+#use_inf .container .text_details .para {
+  width: 530px;
+}
+#use_inf .container .text_details .para p {
+  line-height: 32px;
+  letter-spacing: -0.25%;
+}
+#use_inf .container .steps {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#use_inf .container .steps .card_wrapper {
+  width: 300px;
+  text-align: center;
+  padding: 116px 0 160px 0;
+}
+#use_inf .container .steps .card_wrapper .text h4 {
+  font-family: "Chivo", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  padding-bottom: 12px;
+  padding-top: 24px;
+}
+#use_inf .container .steps .card_wrapper .text p {
+  line-height: 32px;
+}
+#use_inf .container .arrow_shape {
+  position: relative;
+}
+#use_inf .container .arrow_shape .left_arrow {
+  position: absolute;
+  content: "";
+  left: 335px;
+  bottom: 350px;
+}
+#use_inf .container .arrow_shape .right_arrow {
+  position: absolute;
+  content: "";
+  right: 335px;
+  bottom: 400px;
+  transform: scaleX(-1);
 }
