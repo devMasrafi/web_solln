@@ -92,7 +92,8 @@ a{
 
 #banner{
     background: url(../images/BG\ Shape.png);
-    background-size: contain;
+    background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
     .container{
         .banner_text{
